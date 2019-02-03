@@ -16,6 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Component("getResult")
+/**
+ * Class for process get result request
+ */
 public class ExamineStatusesCommand implements Command {
 
     @Autowired
